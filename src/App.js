@@ -30,7 +30,7 @@ function App() {
   }, []);
 
   return (
-    <Router basename="/portfolio">
+    <Router basename="/Portfolio">
     <Preloader load={load} />
     <div className="App" id={load ? "no-scroll" : "scroll"}>
       <Navbar />
@@ -41,7 +41,7 @@ function App() {
         <Route path="/about" element={<About />} /> {/* Optional nested structure */}
         <Route path="/contact" element={<ContactPage />} />
         <Route path="/resume" element={<Resume />} />
-        <Route path="*" element={<Navigate to="/portfolio" />} />
+        <Route path="*" element={<Navigate to="/Portfolio" />} />
       </Routes>
       <Footer />
     </div>
