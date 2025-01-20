@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/Portfolio/static/css/main.d3eaa502.css",
+    "main.js": "/Portfolio/static/js/main.fed3dcf2.js",
+    "static/js/415.4d6acbeb.chunk.js": "/Portfolio/static/js/415.4d6acbeb.chunk.js",
+    "static/js/787.1ed0c42c.chunk.js": "/Portfolio/static/js/787.1ed0c42c.chunk.js",
+    "static/media/home-main.svg": "/Portfolio/static/media/home-main.0ecd58b624aa1824f3be3b33e02f3339.svg",
+    "static/media/avatar.svg": "/Portfolio/static/media/avatar.c62ce262197f5cb25ec659a598cdc4d3.svg",
+    "static/media/emotion.png": "/Portfolio/static/media/emotion.eabfc16e7a146ab15778.png",
+    "static/media/leaf.png": "/Portfolio/static/media/leaf.efa3d5848d4c1e6c0ea0.png",
+    "static/media/codeEditor.png": "/Portfolio/static/media/codeEditor.1b585492490c8c1cace9.png",
+    "static/media/suicide.png": "/Portfolio/static/media/suicide.485ea8fe804f1d84eced.png",
+    "static/media/blog.png": "/Portfolio/static/media/blog.fb8ab7f271a937d5fc01.png",
+    "static/media/Namratha_Resume.pdf": "/Portfolio/static/media/Namratha_Resume.321085ab289793ec8468.pdf",
+    "static/media/about.png": "/Portfolio/static/media/about.aee0f771fbfc1e7b8fa8.png",
+    "static/media/chatify.png": "/Portfolio/static/media/chatify.7206044e0b5cdad44726.png",
+    "static/media/home-bg.jpg": "/Portfolio/static/media/home-bg.dc52d5d40a40b13154b0.jpg",
+    "static/media/logo.png": "/Portfolio/static/media/logo.245019946d92f75d6f02.png",
+    "static/media/pre.svg": "/Portfolio/static/media/pre.d4812f51c8c80976eaab.svg",
+    "index.html": "/Portfolio/index.html",
+    "main.d3eaa502.css.map": "/Portfolio/static/css/main.d3eaa502.css.map",
+    "main.fed3dcf2.js.map": "/Portfolio/static/js/main.fed3dcf2.js.map",
+    "415.4d6acbeb.chunk.js.map": "/Portfolio/static/js/415.4d6acbeb.chunk.js.map",
+    "787.1ed0c42c.chunk.js.map": "/Portfolio/static/js/787.1ed0c42c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d3eaa502.css",
+    "static/js/main.fed3dcf2.js"
+  ]
+}
