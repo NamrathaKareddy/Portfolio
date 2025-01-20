@@ -62,7 +62,7 @@ function Projects() {
             />
           </Col>
 
-          /*<Col md={4} className="project-card">
+          <Col md={4} className="project-card">
             <ProjectCard
               imgPath={suicide}
               isBlog={false}
@@ -70,7 +70,7 @@ function Projects() {
               description="Brought together hundreds of nearby local stores that do not have proper online shopping facilities and displayed the local offers available by accessing the user location with an SDLC implementation using agile methodology. Designed a web application with three other teammates using Angular for the front end."
               ghLink="https://github.com/NamrathaKareddy/EShop-main"
             />
-          </Col>*/
+          </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
