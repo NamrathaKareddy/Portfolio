@@ -30,22 +30,22 @@ function App() {
   }, []);
 
   return (
-    <Router>
-      <Preloader load={load} />
-      <div className="App" id={load ? "no-scroll" : "scroll"}>
-        <Navbar />
-        <ScrollToTop />
-        <Routes>
-          <Route path="/portfolio" element={<Home />} />
-          <Route path="/portfolio/project" element={<Projects />} />
-          <Route path="/portfolio/about" element={<About />} />
-          <Route path="/portfolio/contact" element={<ContactPage />} />
-          <Route path="/portfolio/resume" element={<Resume />} />
-          <Route path="*" element={<Navigate to="/portfolio"/>} />
-        </Routes>
-        <Footer />
-      </div>
-    </Router>
+    <Router basename="/portfolio">
+    <Preloader load={load} />
+    <div className="App" id={load ? "no-scroll" : "scroll"}>
+      <Navbar />
+      <ScrollToTop />
+      <Routes>
+        <Route path="" element={<Home />} />
+        <Route path="/project" element={<Projects />} /> {/* Updated path */}
+        <Route path="/about" element={<About />} /> {/* Optional nested structure */}
+        <Route path="/contact" element={<ContactPage />} />
+        <Route path="/resume" element={<Resume />} />
+        <Route path="*" element={<Navigate to="/portfolio" />} />
+      </Routes>
+      <Footer />
+    </div>
+  </Router>
   );
 }
 
