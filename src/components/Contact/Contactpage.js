@@ -114,7 +114,7 @@ function ContactPage() {
                 ></textarea>
               </div>
               <button type="submit" className="btn contact-btn">
-                Send to Email
+                Send Email
               </button>
             </form>
           </Col>
