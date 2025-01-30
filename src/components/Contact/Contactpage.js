@@ -68,7 +68,7 @@ function ContactPage() {
               <li>
                 <FaMapMarkerAlt />{" "}
                 <span>
-                  3515 SW 39th Blvd, Apt 16B, Gainesville, Florida-32608
+                  Gainesville, Florida-32608
                 </span>
               </li>
             </ul>
